@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Pseudo 
+{
+	public static void main(String[] args)
+	{
+	  int a=7,b=9,c=3,d;
+
+	  d= a++ - b-- + ++c;
+	  b= d++ + a++ + c++;
+	  c= b-- + --a + d--;
+	  a= --b + a++;
+	  System.out.println(d);
+	  System.out.println(b);
+	  System.out.println(c);
+	  System.out.println(a);
+	}
+}

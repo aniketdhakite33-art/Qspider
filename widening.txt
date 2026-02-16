@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        byte b = 10;
+                System.out.println(b);
+        short s = b;
+                System.out.println(s);
+        char ch = b;
+                System.out.println(ch);
+
+
+
+       
+
+
+    }
+}
